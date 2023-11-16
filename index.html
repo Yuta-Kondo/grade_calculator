@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Grade Calculator</h1>
+        <div id="input-fields">
+            <input type="number" id="current-score" placeholder="Current Score (%)">
+            <input type="number" id="activity-weight" placeholder="Activity Weight (%)">
+            <button onclick="addActivity()">Add Activity</button>
+        </div>
+        <div id="activities-list"></div>
+        <input type="number" id="desired-grade" placeholder="Desired Final Grade (%)">
+        <button onclick="calculateGrade()">Calculate</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
