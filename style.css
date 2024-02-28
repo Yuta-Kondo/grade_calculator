@@ -13,14 +13,12 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-input[type=number] {
+input[type=number], input[type=radio], button {
     padding: 10px;
     margin: 10px;
-    width: 200px;
 }
 
 button {
-    padding: 10px 20px;
     background-color: #007bff;
     color: white;
     border: none;
@@ -33,4 +31,8 @@ button:hover {
 
 #activities-list {
     margin: 20px 0;
+}
+
+.hidden {
+    display: none;
 }

@@ -1,36 +1,35 @@
 # Grade Calculator
 
-## Description
-The Grade Calculator is a web application designed to assist students in calculating the score they need on their final exam or remaining assessments to achieve their desired overall grade. Users input their current scores, the weight of these activities, and their target grade, and the application computes the necessary score to reach this goal.
+## Overview
+
+The Grade Calculator is a web-based tool that allows students to calculate the grades they need on their future assessments to achieve their desired overall course grade. It supports the input of both exact scores for assessments that have been completed and a range of expected scores for assessments that are still pending.
 
 ## Features
-- **Input Current Scores:** Users can enter scores for assignments, tests, and other activities.
-- **Weight of Activities:** Input the weightage of each activity towards the final grade.
-- **Target Grade Calculation:** Calculate the score needed on the final exam or remaining activities to achieve a desired grade.
+
+- **Exact Score Entry**: Users can enter the score they have already achieved for an assessment.
+- **Score Range Entry**: Users can specify a range of potential scores for upcoming assessments to account for uncertainty.
+- **Dynamic Calculations**: Based on the input provided, the calculator dynamically computes the required score for remaining assessments.
+- **Activity Management**: Users can add new activities, and remove them as needed.
 
 ## How to Use
-1. **Input Scores:** Enter your scores for various activities.
-2. **Input Weight:** Specify the weight of each activity towards the final grade.
-3. **Add Activity:** Click 'Add Activity' to include it in the overall calculation.
-4. **Set Desired Grade:** Enter the grade you aim to achieve.
-5. **Calculate:** Click 'Calculate' to determine the required score on remaining assessments.
 
-## Technologies
-- **HTML:** Structures the web application.
-- **CSS:** Styles the application.
-- **JavaScript:** Handles the logic and calculations.
+1. Choose whether to enter an 'Exact Score' or a 'Score Range' for the assessment.
+2. For an 'Exact Score', input the score you received.
+3. For a 'Score Range', provide the minimum and maximum expected scores.
+4. Input the weight of the assessment as a percentage of your final grade.
+5. Click 'Add Activity' to include the assessment in your calculations.
+6. Use the 'Delete' button next to any activity to remove it from your list.
+7. After adding all relevant activities, enter the desired final grade percentage.
+8. Press 'Calculate' to determine the score needed on the remaining assessments to achieve your goal.
 
-## Setup
-To run this project:
-1. Clone the repository to your local machine.
-2. Open `index.html` in a web browser.
+## How to Access
 
-## Project Status
-This project is a personal, educational tool and is currently in its initial development phase.
+The Grade Calculator is available online and can be accessed through the following GitHub Pages URL:
 
-## Contact
-For suggestions or queries, please reach out to me at https://www.linkedin.com/in/yutakondo/.
+[Grade Calculator GitHub Page](https://yuta-kondo.github.io/grade_calculator/)
 
----
+Simply navigate to the link to start using the tool - no installation or setup required.
 
-**Disclaimer:** This application is for educational purposes and should be used as a guideline rather than an official calculation tool.
+## Contributions
+
+Feel free to contribute to the Grade Calculator project by submitting issues or pull requests. Your feedback and contributions are greatly appreciated!

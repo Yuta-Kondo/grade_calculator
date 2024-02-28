@@ -10,7 +10,22 @@
     <div class="container">
         <h1>Grade Calculator</h1>
         <div id="input-fields">
-            <input type="number" id="current-score" placeholder="Current Score (%)">
+            <label>
+                <input type="radio" name="scoreType" id="exactScore" value="exact" checked> Exact Score
+            </label>
+            <label>
+                <input type="radio" name="scoreType" id="rangeScore" value="range"> Score Range
+            </label>
+            <br>
+
+            <div id="exact-score-input">
+                <input type="number" id="current-score" placeholder="Current Score (%)">
+            </div>
+            <div id="score-range-inputs" style="display: none;">
+                <input type="number" id="min-score" placeholder="Min Expected Score (%)">
+                <input type="number" id="max-score" placeholder="Max Expected Score (%)">
+            </div>            
+
             <input type="number" id="activity-weight" placeholder="Activity Weight (%)">
             <button onclick="addActivity()">Add Activity</button>
         </div>
